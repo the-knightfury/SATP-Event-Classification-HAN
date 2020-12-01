@@ -1,0 +1,11 @@
+conda activate pytorch36
+
+cd ~/Documents/UTD/2018Fall/6v81-IndepStudy/PETRARCH_Project/UniversalPetrarch/verbMining/ex_crime/HAN
+
+python create_input_files.py
+
+python train.py
+
+python eval.py
+
+python classify.py
